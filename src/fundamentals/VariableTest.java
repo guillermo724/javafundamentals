@@ -35,6 +35,48 @@ public class VariableTest {
        System.out.println(weight);
        height = height / 100;// division
        System.out.println(height);
+       
+       a = 3;
+       b = 4;
+       System.out.println("the square of a =" + a * a);
+       System.out.println("the square of b =" + b * b);
+       System.out.println("the square of c =" + a * a + b * b);
+       
+       final int SPEED_OF_LIGHT = 300000000;
+       float mass = 2.5f;
+//     SPEED_OF_LIGHT = 234;
+       
+       a = 4;
+       b = 6;
+       System.out.println("the square of b =" + b * b);
+       System.out.println("the square of c =" + a * b * b);
     }
 
+
+
+
+    public static void main(String[] args) {
+
+        // Declaración de variables
+        int edad = 18;
+        double dinero = 50.50;
+        String nombre = "Guillermo";
+        boolean estudiante = true;
+
+        // Modificación de variables
+        edad = 18;
+        dinero = dinero + 25.50;
+        nombre = "Guillermo López";
+        estudiante = false;
+
+        // Nuevas modificaciones
+        edad = edad + 1;
+        dinero = dinero - 10;
+        estudiante = true;
+
+        System.out.println("Nombre: " + nombre);
+        System.out.println("Edad: " + edad);
+        System.out.println("Dinero: " + dinero);
+        System.out.println("Estudiante: " + estudiante);
+    }
 }
