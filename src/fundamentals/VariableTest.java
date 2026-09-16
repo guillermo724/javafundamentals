@@ -54,29 +54,4 @@ public class VariableTest {
 
 
 
-
-    public static void main(String[] args) {
-
-        // Declaración de variables
-        int edad = 18;
-        double dinero = 50.50;
-        String nombre = "Guillermo";
-        boolean estudiante = true;
-
-        // Modificación de variables
-        edad = 18;
-        dinero = dinero + 25.50;
-        nombre = "Guillermo López";
-        estudiante = false;
-
-        // Nuevas modificaciones
-        edad = edad + 1;
-        dinero = dinero - 10;
-        estudiante = true;
-
-        System.out.println("Nombre: " + nombre);
-        System.out.println("Edad: " + edad);
-        System.out.println("Dinero: " + dinero);
-        System.out.println("Estudiante: " + estudiante);
-    }
 }
