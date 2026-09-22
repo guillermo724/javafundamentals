@@ -11,7 +11,13 @@ public class Forloop3 {
 //     print all even numbers between 5 and 102
 		for (int i = 5; i <= 102; i = i + 1) {
 //     if the value of i is even, we
-			if (102 % 2 == 0) {
+			/**
+			 * "i % 2 == 1"
+			 * is equivalent to
+			 * "i % 2! == 1"
+			 * 
+			 */
+			if(i % 2 == 0) {
 				System.out.println(i);
 			}
 		}

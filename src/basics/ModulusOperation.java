@@ -7,5 +7,8 @@ public class ModulusOperation {
 		System.out.println(11 % 2);
 		
 		System.out.println(103 % 2);
+		
+		System.out.println(29 % 3);
+	
 	}
 }
