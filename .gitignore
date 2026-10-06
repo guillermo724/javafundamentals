@@ -64,8 +64,8 @@ local.properties
 
 ##############################
 ## NetBeans
-##############################
-nbproject/private/
+
+nbproject##############################/private/
 build/
 nbbuild/
 dist/
