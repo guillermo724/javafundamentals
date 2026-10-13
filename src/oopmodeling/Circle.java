@@ -1,4 +1,4 @@
-package basics.operator;
+package oopmodeling;
 
 /**
  * @author$(USER)
@@ -18,7 +18,7 @@ public class Circle {
 
     }
 
-    private float area () {
+    float area() {
         return PI * radius * radius;
     }
 
