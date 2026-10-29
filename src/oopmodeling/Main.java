@@ -1,6 +1,6 @@
 package oopmodeling;
 
-import static jdk.javadoc.internal.doclets.formats.html.markup.HtmlStyle.title;
+//import static jdk.javadoc.internal.doclets.formats.html.markup.HtmlStyle.title;
 
 /**
  * @author$(USER)
@@ -30,5 +30,23 @@ public class Main {
         b1.category="science fiction";
         System.out.println(b1.category);
 
+
+        // Objeto 1: constructor por defecto
+        Book b2 = new Book();
+        b1.category = "Terror";
+
+        // Objeto 2: constructor con dos parámetros
+        Book b3 = new Book(2, "El Quijote");
+        b2.category = "Novela Histórica";
+
+        // Objeto 3: constructor completo
+        Book b4 = new Book(3, "La República",
+                "Platón", "Editorial Clásica",
+                "380", "Filosofía");
+
+        // Mostrar las categorías por consola
+        System.out.println("Categoría del libro 1: " + b1.category);
+        System.out.println("Categoría del libro 2: " + b2.category);
+        System.out.println("Categoría del libro 3: " + b3.category);
     }
 }

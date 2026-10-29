@@ -36,4 +36,6 @@ public class Book {
 
     //part 3 methods
 
+    public Book() {
+    }
 }
