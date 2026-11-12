@@ -1,4 +1,4 @@
-package oopmodeling;
+package oopmodeling.universe;
 
 /**
  * @author Guillermo

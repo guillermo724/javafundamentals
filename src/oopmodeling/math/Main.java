@@ -1,4 +1,8 @@
-package oopmodeling;
+package oopmodeling.math;
+
+import oopmodeling.Book;
+
+
 
 //import static jdk.javadoc.internal.doclets.formats.html.markup.HtmlStyle.title;
 
